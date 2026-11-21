@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#234c3c">
+        <title>Meine Pflanzen</title>
+        <link rel="manifest" href="manifest.webmanifest">
+        <meta name="theme-color" content="#234c3c">
+        <link rel="apple-touch-icon" href="icons/icon-192.png">
+        <script src="phone.js"></script>
+        <link rel="icon" id="favicon" href="favicon.ico">
+        <link rel="stylesheet" href="style.css?v=0.26.0">
+    </head>
+    <body>
+        <header>
+            <div class="brand">
+                <span class="logo" role="img" aria-label="Logo der Pflanzen-App"></span>
+                <div>
+                    <small>PFLANZEN · DEINE SAMMLUNG</small>
+                    <h1 id="pageTitle">Alles wächst an seinem Platz.</h1>
+                    <p id="subtitle">Bestand, Backups und Ideen für dein nächstes Beet.</p>
+                </div>
+            </div>
+            <button class="light" id="home">⌂ Startseite</button>
+        </header>
+        <main>
+            <div id="message" role="status" aria-live="polite"></div>
+            <nav id="nav"></nav>
+            <div id="app"></div>
+            <footer>
+                <span>Version 0.26.0 · Handy-Version</span>
+                <a href="api/backup">Vollständige Sicherung herunterladen</a>
+                <a href="api/export">Datenexport (JSON)</a>
+            </footer>
+        </main>
+        <dialog id="modal">
+            <div class="dialogtop">
+                <button id="prev" class="secondary">← Zurück</button>
+                <button id="next" class="secondary">Weiter →</button>
+                <button id="close" class="secondary">Schließen ×</button>
+            </div>
+            <div id="modalBody"></div>
+        </dialog>
+        <script>window.APP_TOKEN='handy';window.APP_VERSION='0.26.0';</script>
+        <script src="settings.js?v=0.26.0"></script>
+        <script src="phone_extras.js?v=0.26.0"></script>
+        <script src="photo_input.js?v=0.26.0"></script>
+        <script src="app.js?v=0.26.0"></script>
+        <script src="plant_table.js?v=0.26.0"></script>
+        <script src="plant_views.js?v=0.26.0"></script>
+        <script src="plant_form.js?v=0.26.0"></script>
+        <script src="qr.js?v=0.26.0"></script>
+        <script src="label_designs.js?v=0.26.0"></script>
+        <script src="qr_labels.js?v=0.26.0"></script>
+        <script src="places.js?v=0.26.0"></script>
+        <script src="plant_care.js?v=0.26.0"></script>
+        <script src="features.js?v=0.26.0"></script>
+        <script src="catalogue.js?v=0.26.0"></script>
+        <script src="planner.js?v=0.26.0"></script>
+        <script src="navigation.js?v=0.26.0"></script>
+        <script src="rotation.js?v=0.26.0"></script>
+        <script src="workspace.js?v=0.26.0"></script>
+        <script src="insert.js?v=0.26.0"></script>
+        <script src="objects.js?v=0.26.0"></script>
+        <script src="sowing.js?v=0.26.0"></script>
+        <script src="desktop.js?v=0.26.0"></script>
+        <script src="phone_actions.js?v=0.26.0"></script>
+        <script src="builder.js?v=0.26.0"></script>
+        <script src="sowing_planner.js?v=0.26.0"></script>
+        <script src="care_calendar.js?v=0.26.0"></script>
+        <script src="boot.js?v=0.26.0"></script>
+    </body>
+</html>
